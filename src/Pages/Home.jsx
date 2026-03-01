@@ -2,13 +2,17 @@ import earthGif from "../assets/earthspin-animation.gif";
 import "./CSS/Home.css"
 
 function Home() {
+    const SCALE = 1 / window.devicePixelRatio;
 
     return (
         <>
-            <div className="center"> 
-                <img src={earthGif} alt="Earth spinning" className="earth"/> 
-                <div className="title">BSSA</div> 
-            </div>
+            <center> 
+                <img src={earthGif} alt="Earth spinning" className="earth1994"/> 
+                <div className="title1994">BSSA</div> 
+                <p className="p1994">
+                    BSSA or Beyond Science Space Administration is a 
+                </p>
+            </center>
         </>
     )
 }

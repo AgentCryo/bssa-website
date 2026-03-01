@@ -1,3 +1,7 @@
+:root {
+    --scale: something;
+}
+
 body {
     font-family: -apple-system, BlinkMacSystemFont, "Helvetica Neue", Helvetica, Arial, system-ui, sans-serif;
     background-color: black;
@@ -26,6 +30,11 @@ img {
     justify-content: center;
 }
 
+.center1994 {
+    text-align: center;
+    margin-top: 40px;
+}
+
 .title {
     color: cyan;
     text-align: center;
@@ -34,7 +43,29 @@ img {
     scale: 1000%;
 }
 
+.title1994 {
+    font-family: "Courier New", Courier, monospace;
+    font-size: 48px;
+    color: cyan;
+    text-align: center;
+}
+
+.p1994 {
+    font-family: "Courier New", Courier, monospace;
+    font-size: 20px;
+    color: white;
+    text-align: center;
+}
+
 .earth {
     scale: 600%;
+}
+
+.earth1994 {
+    width: 48px;
+    height: 48px;
+    image-rendering: pixelated;
+    transform: scale(var(--scale));
+    transform-origin: top left;
 }
 
