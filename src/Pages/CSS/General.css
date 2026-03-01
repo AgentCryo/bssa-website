@@ -1,0 +1,47 @@
+body {
+    font-family: -apple-system, BlinkMacSystemFont, "Helvetica Neue", Helvetica, Arial, system-ui, sans-serif;
+    background-color: black;
+    overflow-y: auto;
+    background-image: url('/src/assets/fond3_.jpg');
+    background-repeat: repeat;
+    background-attachment: fixed;
+
+    margin: 0;
+    display: flex;
+    place-items: center;
+    min-height: 50vh;
+    
+    color: #f9f9f9;
+}
+
+a {
+    color: #0000EE; /* classic blue */
+    text-decoration: underline;
+}
+a:visited {
+    color: #551A8B; /* classic purple */
+}
+
+p {
+    font-size: 20px;
+    display: block;
+    margin-block-start: 1em;
+    margin-block-end: 1em;
+    margin-inline-start: 0px;
+    margin-inline-end: 0px;
+    unicode-bidi: isolate;
+}
+
+hr {
+    border: 0;
+    height: 2px;
+    width: 70%;
+    margin: 0.5em auto;
+    background: linear-gradient(to right, #fff, #00aaff, #fff);
+}
+
+
+.warning {
+    font-size: 10px;
+    font-family: "Times New Roman", serif;
+}
